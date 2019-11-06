@@ -38,7 +38,7 @@ class Game():
       self.surface = surface
       self.bg_color = pygame.Color('black')
       
-      self.FPS = 60
+      self.FPS = 360
       self.game_Clock = pygame.time.Clock()
       self.close_clicked = False
       self.continue_game = True
@@ -153,7 +153,7 @@ class Game():
     def decide_continue(self, scoreL, scoreR):
         # Check and remember if the game should continue      
         if scoreL == 11 or scoreR == 11:
-            pygame.quit()
+            self.continue_game = False
          
 class Ball:
    # An object in this class represents a Ball that moves 

@@ -115,8 +115,6 @@ class Ball:
       self.velocity = Ball_velocity
       self.surface = surface
       
-      print(self.radius)
-      print(self.velocity)
       
    def move(self):
       # Change the location of the Ball by adding the corresponding 

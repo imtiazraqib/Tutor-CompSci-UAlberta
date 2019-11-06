@@ -157,8 +157,6 @@ class Ball:
          self.velocity[0] = -self.velocity[0]
       if self.center[1] >= screen_height - self.radius or self.center[1] <= self.radius:
          self.velocity[1] = -self.velocity[1]      
-      
-      print(self.velocity)
    
    def draw(self):
       # Draw the Ball on the surface

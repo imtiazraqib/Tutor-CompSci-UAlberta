@@ -38,7 +38,7 @@ class Game():
       self.surface = surface
       self.bg_color = pygame.Color('black')
       
-      self.FPS = 360
+      self.FPS = 60
       self.game_Clock = pygame.time.Clock()
       self.close_clicked = False
       self.continue_game = True

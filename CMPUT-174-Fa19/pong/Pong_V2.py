@@ -1,5 +1,5 @@
 # Pong V2
-# This version of Pong will have the ball implemented, two paddles (Left and right), a black screen (500X400), and the ability for ball to bounce off of the screen edges
+# This version of Pong will have the ball being able to collide with the front of the paddles, be able to update the score and end the game
 
 import pygame
 
